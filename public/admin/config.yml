@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: SEU_USUARIO/SEU_REPO
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "dashboard"
+    label: "Textos do Dashboard"
+    files:
+      - file: "src/content/dashboardTextos.json"
+        label: "Dashboard"
+        name: "dashboard"
+        fields:
+          - { label: "Card 4 Observação", name: "card4_meta_equipes.observacao", widget: "text" }
+          - { label: "Card 7 Leitura", name: "card7_conhecimento.leitura", widget: "text" }
+          - { label: "Card 7 Observação", name: "card7_conhecimento.observacao", widget: "text" }

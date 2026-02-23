@@ -1,0 +1,51 @@
+{
+  "card4_meta_equipes": {
+    "leitura": "",
+    "observacao": "As equipes GPP, Diversidade e E360 deixaram de bater a meta de raça/cor no último ciclo, impactando a queda observada."
+  },
+
+  "card5_total_metas": {
+    "leitura": "",
+    "observacao": "A equipe de Diversidade é a única que não bate nenhuma das duas metas (raça/cor e gênero), exigindo atenção estratégica."
+  },
+
+  "card7_conhecimento": {
+    "leitura": "O conhecimento sobre o impacto da diversidade apresentou crescimento entre pessoas negras.",
+    "observacao": "O aumento pode estar relacionado aos diálogos institucionais e revisão das bases teóricas realizadas no ciclo."
+  },
+
+  "card8_impacto": {
+    "leitura": "",
+    "observacao": "A queda observada entre pessoas brancas merece acompanhamento para entender se há relação com carga de trabalho ou percepção organizacional."
+  },
+
+  "card9_poder": {
+    "leitura": "",
+    "observacao": "As linhas seguem paralelas entre os públicos, indicando possível relação com dinâmica organizacional e volume de trabalho."
+  },
+
+  "card10_conforto": {
+    "leitura": "",
+    "observacao": "As variações podem estar associadas aos treinamentos sobre denúncias, comportamentos inadequados e uso de termos impróprios."
+  },
+
+  "card11_valor": {
+    "leitura": "",
+    "observacao": "Observa-se aumento consistente na percepção de agregar valor entre pessoas negras."
+  },
+
+  "card11_reconhecimento": {
+    "leitura": "",
+    "observacao": "O reconhecimento segue baixo entre pessoas negras (25%). Recomenda-se verificar composição salarial, tempo de casa e ocupação de cargos."
+  },
+
+  "card12_produtividade": {
+    "leitura": "",
+    "observacao": "Há queda na produtividade percebida entre pessoas brancas, enquanto entre pessoas negras o indicador se mantém estável."
+  },
+
+  "card12_escuta": {
+    "leitura": "",
+    "observacao": "A escuta segue em torno de metade da equipe se sentindo escutada. Apesar de melhora entre pessoas negras, o índice ainda é considerado baixo."
+  }
+}
