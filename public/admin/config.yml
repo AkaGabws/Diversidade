@@ -1,7 +1,8 @@
 backend:
   name: github
-  repo: SEU_USUARIO/SEU_REPO
+  repo: AkaGabws/Diversidade
   branch: main
+  auth_type: implicit
 
 media_folder: "public/images"
 public_folder: "/images"
@@ -14,6 +15,73 @@ collections:
         label: "Dashboard"
         name: "dashboard"
         fields:
-          - { label: "Card 4 Observação", name: "card4_meta_equipes.observacao", widget: "text" }
-          - { label: "Card 7 Leitura", name: "card7_conhecimento.leitura", widget: "text" }
-          - { label: "Card 7 Observação", name: "card7_conhecimento.observacao", widget: "text" }
+
+          - label: "Card 4 - Meta Equipes"
+            name: "card4_meta_equipes"
+            widget: "object"
+            fields:
+              - { label: "Leitura", name: "leitura", widget: "text" }
+              - { label: "Observação", name: "observacao", widget: "text" }
+
+          - label: "Card 5 - Total Metas"
+            name: "card5_total_metas"
+            widget: "object"
+            fields:
+              - { label: "Leitura", name: "leitura", widget: "text" }
+              - { label: "Observação", name: "observacao", widget: "text" }
+
+          - label: "Card 7 - Conhecimento"
+            name: "card7_conhecimento"
+            widget: "object"
+            fields:
+              - { label: "Leitura", name: "leitura", widget: "text" }
+              - { label: "Observação", name: "observacao", widget: "text" }
+
+          - label: "Card 8 - Impacto"
+            name: "card8_impacto"
+            widget: "object"
+            fields:
+              - { label: "Leitura", name: "leitura", widget: "text" }
+              - { label: "Observação", name: "observacao", widget: "text" }
+
+          - label: "Card 9 - Poder"
+            name: "card9_poder"
+            widget: "object"
+            fields:
+              - { label: "Leitura", name: "leitura", widget: "text" }
+              - { label: "Observação", name: "observacao", widget: "text" }
+
+          - label: "Card 10 - Conforto"
+            name: "card10_conforto"
+            widget: "object"
+            fields:
+              - { label: "Leitura", name: "leitura", widget: "text" }
+              - { label: "Observação", name: "observacao", widget: "text" }
+
+          - label: "Card 11 - Valor"
+            name: "card11_valor"
+            widget: "object"
+            fields:
+              - { label: "Leitura", name: "leitura", widget: "text" }
+              - { label: "Observação", name: "observacao", widget: "text" }
+
+          - label: "Card 11 - Reconhecimento"
+            name: "card11_reconhecimento"
+            widget: "object"
+            fields:
+              - { label: "Leitura", name: "leitura", widget: "text" }
+              - { label: "Observação", name: "observacao", widget: "text" }
+
+          - label: "Card 12 - Produtividade"
+            name: "card12_produtividade"
+            widget: "object"
+            fields:
+              - { label: "Leitura", name: "leitura", widget: "text" }
+              - { label: "Observação", name: "observacao", widget: "text" }
+
+          - label: "Card 12 - Escuta"
+            name: "card12_escuta"
+            widget: "object"
+            fields:
+              - { label: "Leitura", name: "leitura", widget: "text" }
+              - { label: "Observação", name: "observacao", widget: "text" }
