@@ -130,7 +130,7 @@ export default function Diversidade() {
               </div>
             }
             leitura="Em raça/cor, o % de EQUIPES com metas batidas sobe de 31% (fev/25) para 50% (set/25) e depois cai para 29% (mar/26). O avanço não é linear e exige monitoramento constante."
-            observacao="GPP, Diversidade e E360 deixaram de bater a meta de raça/cor no último ciclo, puxando o indicador para baixo em mar/26. É necessário compreender os movimentos internos de cada uma dessas equipes para definir ações específicas de reforço."
+            observacao="GPP e E360 deixaram de bater a meta de raça/cor no último ciclo, puxando o indicador para baixo em mar/26. É necessário compreender os movimentos internos de cada uma dessas equipes para definir ações específicas de reforço."
           />
 
 
@@ -173,8 +173,8 @@ export default function Diversidade() {
                 <TimelineRow periodo="Mar/26" valor={1.00} destaque />
               </div>
             }
-            leitura="Em gênero, há crescimento nas instâncias de decisão, de 63% (fev/25) para 64% (set/25) e 79% (mar/26). Ainda abaixo da meta de 100%."
-          />
+            leitura="Em gênero, há crescimento nas instâncias de decisão, de 75% (fev/25) para 86% (set/25) e 100% (mar/26)."
+            />
         </SectionCard>
 
         {/* 5. % TOTAL METAS */}
@@ -187,7 +187,7 @@ export default function Diversidade() {
           <AnalyticCard
             title="Observação estratégica"
             dados={null}
-            leitura="Considerando raça/cor e gênero juntos, o % total de metas batidas oscila entre 52% e 50% nos três momentos analisados, sem atingir valores próximos a 100%. O % total de metas batidas (raça + gênero) fica entre 43% e 50% nos três momentos, sem atingir valores próximos a 100%."
+            leitura="Considerando raça/cor e gênero juntos, o % total de metas batidas oscila entre 52% a 65% nos três momentos analisados."
             
           />
           
