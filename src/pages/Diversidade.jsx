@@ -96,9 +96,7 @@ export default function Diversidade() {
               </li>
             ))}
           </ul>
-          <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 text-sm text-amber-800">
-            <strong>Limitação importante:</strong> Os indicadores mensais de engajamento em diversidade (participação em encontros, vivências, abertura de newsletter, eventos externos) são mencionados na descrição conceitual e em notas explicativas, mas não há planilha com esses dados mensais numéricos nesta base. Portanto, não é possível quantificar nem cruzar diretamente "engajamento mensal" com os indicadores do FibAE ou metas do Censo.
-          </div>
+          
         </SectionCard>
 
         {/* 2. METAS – VISÃO GERAL */}
