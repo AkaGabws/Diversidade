@@ -129,7 +129,7 @@ export default function Diversidade() {
                 <TimelineRow periodo="Mar/26" valor={0.36} />
               </div>
             }
-            leitura="Em raça/cor, o % de EQUIPES com metas batidas sobe de 31% (fev/25) para 50% (set/25) e depois cai para 29% (mar/26). O avanço não é linear e exige monitoramento constante."
+            leitura="Em raça/cor, o % de EQUIPES com metas batidas sobe de 31% (fev/25) para 50% (set/25) e depois cai para 36% (mar/26). O avanço não é linear e exige monitoramento constante."
             observacao="GPP e E360 deixaram de bater a meta de raça/cor no último ciclo, puxando o indicador para baixo em mar/26. É necessário compreender os movimentos internos de cada uma dessas equipes para definir ações específicas de reforço."
           />
 
