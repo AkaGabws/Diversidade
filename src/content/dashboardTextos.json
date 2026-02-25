@@ -1,32 +1,32 @@
 {
   "card4_meta_equipes": {
     "leitura": "",
-    "observacao": "As equipes GPP, Diversidade e E360 deixaram de bater a meta de raça/cor no último ciclo, impactando a queda observada."
+    "observacao": "Raça % equipes batendo meta: GPP, diversidade, E360, deixaram de bater a meta de raça cor e tivemos 2 pessoas negras que saíram da AE."
   },
 
   "card5_total_metas": {
     "leitura": "",
-    "observacao": "A equipe de Diversidade é a única que não bate nenhuma das duas metas (raça/cor e gênero), exigindo atenção estratégica."
+    "observacao": " "
   },
 
   "card7_conhecimento": {
     "leitura": "O conhecimento sobre o impacto da diversidade apresentou crescimento entre pessoas negras.",
-    "observacao": "O aumento pode estar relacionado aos diálogos institucionais e revisão das bases teóricas realizadas no ciclo."
+    "observacao": "Conhecimento e impacto das políticas de diversidade. Aumento significativo do público negro, possivelmente relacionado aos diálogos de aplicação de diversidade em eventos e revisão das bases teóricas antirracistas"
   },
 
   "card8_impacto": {
     "leitura": "",
-    "observacao": "A queda observada entre pessoas brancas merece acompanhamento para entender se há relação com carga de trabalho ou percepção organizacional."
+    "observacao": "Brancos apresentou uma queda durante o período em que tivemos treinamento da equipe para o Summit, Encontro com o Presente com atividade de aprofundamento na identificação de comportamentos preconceituosos e diálogos, o que pode ter provocado uma auto-reflexão e insegurança. O desconforto é natural e necessário, no entanto, precisamos manter o diálogo aberto para falar sobre o desconforto. "
   },
 
   "card9_poder": {
     "leitura": "",
-    "observacao": "As linhas seguem paralelas entre os públicos, indicando possível relação com dinâmica organizacional e volume de trabalho."
+    "observacao": " As linhas seguem quase paralelas para os 2 públicos, sinalizando um movimento talvez relacionado ao volume de trabalho. A diferença entre os dois publicos ainda é grande apesar de ter reduzido, sendo importante definir ações para melhorar esses dois indicadores em 2026. "
   },
 
   "card10_conforto": {
     "leitura": "",
-    "observacao": "As variações podem estar associadas aos treinamentos sobre denúncias, comportamentos inadequados e uso de termos impróprios."
+    "observacao": " A inclusão de bases teóricas antirracistas no iceberg da AE pode ter gerado mais segurança no público negro em alertar, uma vez os conceitos estão validados institucionalmente. Precisamos reforçar que a AE adota uma postura educativa e não punitiva para trabalhar o desenvolvimento de sua equipe, considerando a queda no conforto para o público branco"
   },
 
   "card11_valor": {
@@ -36,16 +36,16 @@
 
   "card11_reconhecimento": {
     "leitura": "",
-    "observacao": "O reconhecimento segue baixo entre pessoas negras (25%). Recomenda-se verificar composição salarial, tempo de casa e ocupação de cargos."
+    "observacao": "ainda é baixo o reconhecimento no público negro (25%) 88% dos públicos avaliam salário como uma forma de reconhecimento. – Devido ao passado de maioria de público branco na AE, os colaboradores mais antigos, que possuem maiores salários, também é branca. O Comitê sugere fazer uma checagem de composição salarial de pares, para confirmar se os salários estão equiparados."
   },
 
   "card12_produtividade": {
     "leitura": "",
-    "observacao": "Há queda na produtividade percebida entre pessoas brancas, enquanto entre pessoas negras o indicador se mantém estável."
+    "observacao": " Queda na produtividade de brancos, se mantendo quase constante para negros. Muitas entregas no 1º semestre de 2025 MANU (não tem uma discrepância de Raça) "
   },
 
   "card12_escuta": {
     "leitura": "",
-    "observacao": "A escuta segue em torno de metade da equipe se sentindo escutada. Apesar de melhora entre pessoas negras, o índice ainda é considerado baixo."
+    "observacao": "Segue uma média de metade da equipe se sentindo escutada, aumentou para negros, mas no geral, ainda baixa? MANU (não tem uma discrepância de Raça) "
   }
 }

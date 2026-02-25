@@ -128,7 +128,7 @@ export default function Diversidade() {
               <div>
                 <TimelineRow periodo="Fev/25" valor={0.31} />
                 <TimelineRow periodo="Set/25" valor={0.50} destaque />
-                <TimelineRow periodo="Mar/26" valor={0.29} />
+                <TimelineRow periodo="Mar/26" valor={0.36} />
               </div>
             }
             leitura="Em raça/cor, o % de EQUIPES com metas batidas sobe de 31% (fev/25) para 50% (set/25) e depois cai para 29% (mar/26). O avanço não é linear e exige monitoramento constante."
@@ -184,13 +184,13 @@ export default function Diversidade() {
           <div className="grid grid-cols-3 gap-4 mb-5">
             <StatCard label="Fev/25" value="52%" sub="0,52" />
             <StatCard label="Set/25" value="70%" sub="0,70" />
-            <StatCard label="Mar/26" value="63%" sub="0,63" />
+            <StatCard label="Mar/26" value="65%" sub="0,65" />
           </div>
           <AnalyticCard
             title="Observação estratégica"
             dados={null}
-            leitura="Considerando raça/cor e gênero juntos, o % total de metas batidas oscila entre <strong>47% e 50%</strong> nos três momentos analisados, sem atingir valores próximos a 100%. O % total de metas batidas (raça + gênero) fica entre 43% e 50% nos três momentos, sem atingir valores próximos a 100%."
-            observacao={textos.card5_total_metas.observacao}
+            leitura="Considerando raça/cor e gênero juntos, o % total de metas batidas oscila entre 52% e 50% nos três momentos analisados, sem atingir valores próximos a 100%. O % total de metas batidas (raça + gênero) fica entre 43% e 50% nos três momentos, sem atingir valores próximos a 100%."
+            
           />
           
         </SectionCard>
@@ -245,7 +245,80 @@ export default function Diversidade() {
           </div>
         </SectionCard>*/}
 
-        {/* 7. FIBAE – INTRO */}
+        <SectionCard title="6. Comparativo geral – leitura consolidada dos indicadores" id="comparativo-geral">
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+
+            {/* NEGROS > BRANCOS */}
+            <div className="bg-blue-800 text-white rounded-xl p-5 shadow-md">
+              <h3 className="text-sm font-bold uppercase tracking-wide mb-4 text-green-400">
+                Negros &gt; Brancos
+              </h3>
+              <ul className="text-sm space-y-2">
+                <li>• Conhecem os impactos</li>
+                <li>• Sentem o impacto</li>
+                <li>• Segurança para conversar</li>
+                <li>• Conforto em alertar</li>
+                <li>• Conforto em ser alertado</li>
+                <li>• Sentem que agregam valor</li>
+                <li>• Apoio e colaboração</li>
+              </ul>
+            </div>
+
+            {/* BRANCOS > NEGROS */}
+            <div className="bg-white border border-gray-200 rounded-xl p-5 shadow-md">
+              <h3 className="text-sm font-bold uppercase tracking-wide mb-4 text-blue-700">
+                Brancos &gt; Negros
+              </h3>
+              <ul className="text-sm text-gray-700 space-y-2">
+                <li>• Influência ou poder nas decisões</li>
+                <li>• Segurança para liderar</li>
+                <li>• Reconhecimento</li>
+              </ul>
+            </div>
+
+            {/* DIFERENÇA NÃO SIGNIFICATIVA */}
+            <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5 shadow-md">
+              <h3 className="text-sm font-bold uppercase tracking-wide mb-4 text-yellow-700">
+                Diferença não significativa
+              </h3>
+              <ul className="text-sm text-gray-700 space-y-2">
+                <li>• Produtividade nos últimos 6 meses</li>
+                <li>• Se sentem escutados(as)</li>
+              </ul>
+            </div>
+
+            {/* COMPORTAMENTO SEMELHANTE */}
+            <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 shadow-md">
+              <h3 className="text-sm font-bold uppercase tracking-wide mb-4 text-gray-600">
+                Comportamento semelhante
+              </h3>
+              <p className="text-sm text-gray-600">
+                <li>Mais produtivos(as) nos últimos 6 meses</li>
+                <li>Escuta quando precisa</li>
+                <li>Reconhecimento </li>
+                <li>Segurança em liderar grupos </li>
+              </p>
+            </div>
+
+          </div>
+          <br />
+          <div className="bg-white border border-gray-200 rounded-xl p-5 shadow-md">
+              <h3 className="text-sm font-bold uppercase tracking-wide mb-4 text-blue-700">
+                Reflexões Gerais
+              </h3>
+              <ul className="text-sm text-gray-700 space-y-2">
+                <li>• Em 2025 tivemos um virada em 5 indicadores em que o publico negro apresentou um percentual maior do que brancos: conhecem e sentem o impacto, segurança para falar de diversidade, conforto em alertar pessoas, apoio e colaboração da equipe </li>
+                <li>• No entanto indicadores que se refere a composição de espaços estratégicos, branco ainda são maioria.</li>
+                <li>• A sobrecarga de trabalho pode estar influenciando os indicadores que tiveram queda</li>
+              </ul>
+            </div>
+          
+        
+        </SectionCard>
+
+
+        {/* 7. FIBAE – INTRO 
         <SectionCard title="6. FibAE – indicadores de diversidade e períodos analisados" id="fibae-intro">
           <p className="text-gray-700 text-sm leading-relaxed mb-4">
             O acompanhamento <strong>FIBAE – DIVERSIDADE</strong> apresenta, para cada indicador, o percentual de promotores (notas 9–10) por recorte racial, em quatro períodos: <strong>Set/24</strong>, <strong>Fev/25</strong>, <strong>Set/25</strong> e <strong>Fev/26</strong>.
@@ -273,7 +346,7 @@ export default function Diversidade() {
               </div>
             ))}
           </div>
-        </SectionCard>
+        </SectionCard>*/}
 
         {/* 8. FIBAE – CONHECIMENTO E IMPACTO */}
         <SectionCard title="7. FibAE – conhecimento e impacto das políticas de diversidade" id="fibae-conhecimento">
@@ -331,7 +404,7 @@ export default function Diversidade() {
         </SectionCard>
 
         {/* 10. FIBAE – PODER, LIDERANÇA */}
-        <SectionCard title="9. FibAE – poder de decisão, desejo de liderança e segurança para liderar" id="fibae-poder">
+        <SectionCard title="9. FibAE – poder de decisão, desejo de ocupar espaço e segurança para liderar" id="fibae-poder">
           <div className="grid md:grid-cols-2 gap-4 mb-4">
             <FibaeLineChart
               title="Influência ou poder nas decisões"
@@ -397,7 +470,7 @@ export default function Diversidade() {
             />
         </SectionCard>
 
-        <SectionCard title="11. FibAE –sentimento de valor e reconhecimento" id="fibae-valor">
+        <SectionCard title="11. FibAE – sentimento de valor e reconhecimento" id="fibae-valor">
           <div className="grid md:grid-cols-2 gap-4 mb-4">
             <FibaeLineChart
               title="Sentem que agregam valor"
@@ -424,12 +497,24 @@ export default function Diversidade() {
               />
             }
             leitura="Percepção de valor é alta para ambos, com ligeiro aumento entre negros(as) até 80%. Percepção de produtividade recente é relativamente baixa e decrescente para ambos os grupos. Reconhecimento é um ponto crítico: valores muito menores entre negros(as) (chegando a 9% em fev/25) do que entre brancos(as) (50%–62%). Escuta é similar entre grupos, com leve vantagem a favor de negros(as) em fev/26. Apoio e colaboração crescem entre negros(as) e caem entre não negros(as) ao longo dos ciclos."
-            observacao= {textos.card11_valor.observacao}
+            observacao={
+            <div className="space-y-3 text-sm text-gray-700">
+              <div>
+                <strong>Agrevalor:</strong>
+                <p>{textos.card11_valor.observacao}</p>
+              </div>
+
+              <div>
+                <strong>Reconhecimento: </strong>
+                <p>{textos.card11_reconhecimento.observacao}</p>
+              </div>
+            </div>
+}
           />
         </SectionCard>
 
         {/* 12. FIBAE – APOIO, ESCUTA, VALOR, PRODUTIVIDADE, RECONHECIMENTO */}
-        <SectionCard title="12. FibAE – apoio, escuta eprodutividade" id="fibae-apoio">
+        <SectionCard title="12. FibAE – apoio, escuta e produtividade" id="fibae-apoio">
           <div className="grid md:grid-cols-2 gap-4 mb-4">
             <FibaeLineChart
               title="Produtividade nos últimos 6 meses"
@@ -465,7 +550,20 @@ export default function Diversidade() {
               />
             }
             leitura="Percepção de valor é alta para ambos, com ligeiro aumento entre negros(as) até 80%. Percepção de produtividade recente é relativamente baixa e decrescente para ambos os grupos. Reconhecimento é um ponto crítico: valores muito menores entre negros(as) (chegando a 9% em fev/25) do que entre brancos(as) (50%–62%). Escuta é similar entre grupos, com leve vantagem a favor de negros(as) em fev/26. Apoio e colaboração crescem entre negros(as) e caem entre não negros(as) ao longo dos ciclos."
-           observacao= {textos.card12_produtividade.observacao}
+           observacao={
+            <div className="space-y-3 text-sm text-gray-700">
+              <div>
+                <strong>Produtividade:</strong>
+                <p>{textos.card12_produtividade.observacao}</p>
+              </div>
+
+              <div>
+                <strong>Escuta:</strong>
+                <p>{textos.card12_escuta.observacao}</p>
+              </div>
+            </div>
+}
+           
           />
         </SectionCard>
 
@@ -563,29 +661,8 @@ export default function Diversidade() {
             </div>
           </div>
         </SectionCard>*/}
-
+       
         {/* 17. REFLEXÕES ESTRATÉGICAS DO COMITÊ */}
-        <SectionCard title="13. Reflexões estratégicas – leituras qualitativas do ciclo" id="reflexoes">
-          <p className="text-sm text-gray-500 italic mb-5">
-            Esta seção apresenta interpretações estratégicas produzidas pelo Comitê de Diversidade. Não são dados numéricos. São reflexões qualitativas sobre o ciclo, organizadas visualmente abaixo.
-          </p>
-          <div className="grid md:grid-cols-2 gap-4">
-            <ReflexaoCard
-              titulo="GERAL"
-              texto="Brancos mantêm um percentual maior que o público negro em muitos indicadores, no entanto temos visto em diversos indicadores a redução dessa diferença, a sobrecarga de trabalho pode estar influenciando os indicadores que tiveram queda. "
-            />
-            {/* <ReflexaoCard
-              titulo="Queda na produtividade de brancos"
-              texto=" Se mantendo quase constante para negros. Muitas entregas no 10 semestre de 2025 MANU (não tem uma discrepância de Raça) "
-            />
-
-            <ReflexaoCard
-              titulo="Queda na produtividade de brancos"
-              texto=" Se mantendo quase constante para negros. Muitas entregas no 10 semestre de 2025 MANU (não tem uma discrepância de Raça) "
-            />
-            */}
-          </div>
-        </SectionCard>
 
         {/* RODAPÉ */}
         <div className="text-center text-xs text-gray-400 py-6 border-t border-gray-200 mt-4">
